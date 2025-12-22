@@ -61,7 +61,7 @@ main_package_install () {
 
 	# sudo pacman -Sy --needed $(cat package-list.txt)
 	# sudo pacman -Sy --needed $(main_package_find_list_raw)
-	sudo pacman -Sy --needed $(main_package_find_list)
+	# sudo pacman -Sy --needed $(main_package_find_list)
 	# pamac install $(main_package_find_list)
 	# pamac build $(main_package_find_list)
 	# yay -Sy --needed $(main_package_find_list)
@@ -76,7 +76,15 @@ main_package_install () {
 	# sudo dnf install $(main_package_find_list)
 
 
-	return 0
+
+	##
+	## ## Void Linux
+	##
+
+	# sudo xbps-install -Su $(cat package-list.txt)
+	# sudo xbps-install -Su $(main_package_find_list_raw)
+	sudo xbps-install -Su $(main_package_find_list)
+
 
 }
 
