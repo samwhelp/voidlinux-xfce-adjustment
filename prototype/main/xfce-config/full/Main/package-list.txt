@@ -1,0 +1,169 @@
+
+
+##
+## # Xfce
+##
+
+
+
+
+##
+## ## Link
+##
+## * https://wiki.archlinux.org/title/xfce
+## * https://archlinux.org/groups/x86_64/xfce4/
+## * https://archlinux.org/groups/x86_64/xfce4-goodies/
+##
+
+
+
+
+##
+## ## Package / Desktop Environment / xfce
+##
+
+xfce4
+xfce4-goodies
+
+
+
+
+##
+## ## Package / Window Manager / xfwm4
+##
+
+#xfwm4
+
+
+
+
+##
+## ## Package / Theme
+##
+
+gtk-engines
+gtk-engine-murrine
+
+qt5-svg
+qt6-svg
+
+
+
+
+##
+## ## Package / Theme / papirus-theme
+##
+
+papirus-icon-theme
+
+
+
+
+##
+## ## Package / Theme / numix-theme
+##
+
+#numix-gtk-theme-git
+#numix-icon-theme-git
+#numix-circle-icon-theme-git
+#numix-folders-git
+
+
+
+
+##
+## ## Package  / Theme / arc-theme
+##
+
+arc-gtk-theme
+#arc-icon-theme
+
+
+
+
+##
+## ## Package / Theme / breeze-theme
+##
+
+breeze
+breeze-gtk
+breeze-icons
+
+
+
+
+##
+## ## Package / Tool
+##
+
+
+
+
+##
+## ## Package / Tool / Launcher
+##
+
+rofi
+
+
+
+
+##
+## ## Package / Tool / Terminal
+##
+
+xfce4-terminal
+#sakura
+
+
+
+
+##
+## ## Package / Tool / File Manager
+##
+
+thunar
+
+
+
+
+##
+## ## Package / Tool / Text Editor
+##
+
+mousepad
+vim
+micro
+
+featherpad
+feathernotes
+
+geany
+
+
+
+##
+## ## Package / Tool / Image Viewer
+##
+
+viewnior
+
+
+
+
+##
+## ## Package / Tool / Media Player
+##
+
+vlc
+mpv
+smplayer
+
+
+
+
+##
+## ## Package / Tool / Audio Player
+##
+
+audacious
